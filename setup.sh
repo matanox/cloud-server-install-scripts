@@ -37,5 +37,5 @@ sudo apt-get install ffmpeg -y
 # audio conversion from opus to wav (was it enough?)
 sudo apt-get install opus-tools -y
 
-ECHO now start sbt so that it downloads itself over the Internet... this may take a minute or two to complete
+echo now start sbt so that it downloads itself over the Internet... this may take a minute or two to complete
 # TODO: optionally take arguments for https git clone uri and clone & compile that repo in the end (as first compile updates all dependencies which takes several minutes)
